@@ -1,0 +1,49 @@
+﻿<Window x:Class="EquipmentMonitoringDashboard.MainWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EquipmentMonitoringDashboard.Converters"
+        mc:Ignorable="d"
+        Title="Equipment Monitoring Dashboard" Height="350" Width="600">
+
+    <Window.Resources>
+        <local:TemperatureToBrushConverter x:Key="TemperatureToBrushConverter" />
+    </Window.Resources>
+
+    <Grid Margin = "10">
+          <DataGrid ItemsSource="{Binding Equipment}" AutoGenerateColumns="False" CanUserAddRows="False" Margin="10">
+
+            <DataGrid.Resources>
+
+                <Style TargetType ="DataGridRow">
+
+                    <Setter Property="Background" Value="{Binding Temperature, Converter={StaticResource TemperatureToBrushConverter}}" />
+
+                </Style>
+                
+            </DataGrid.Resources>
+              
+              
+            <DataGrid.Columns>
+                
+            <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+            <DataGridTextColumn Header="Status" Binding="{Binding Status}" />
+            <DataGridTextColumn Header="Temperature (°C)" Binding="{Binding Temperature}" />
+            <DataGridTextColumn Header="Last Updated" Binding="{Binding LastUpdated}" />
+                
+            </DataGrid.Columns>
+          
+          </DataGrid>
+
+    </Grid> 
+</Window>
+
+    <!-- Window: main application window-->    
+    <!-- Grid: like a div in HTML/CSS -->
+    <!-- x:Class: links the XAML to the backend C# file (MainWindow.xaml.cs)-->
+    <!-- xlmns: The namespaces needed for standard WPF controls-->
+    <!--DataGrid: binds the list from the ViewModel to this grid. So anytime the list changes, the UI auto-updates. But we are manually defining each column-->
+    <!--DataGrid.Resources: This is where I define styles that apply only inside this DataGrid.-->
+    <!-- TargetType = "DataGridRow" : This targets each row in the Grid, and inside it, I define trigger-based styles-->
+    <!--Style.Triggers: It’s a way to change how something looks or behaves based on a condition, all within a Style.-->

@@ -1,0 +1,16 @@
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\bin\Debug\EquipmentMonitoringDashboard.exe.config
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\bin\Debug\EquipmentMonitoringDashboard.exe
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\bin\Debug\EquipmentMonitoringDashboard.pdb
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\EquipmentMonitoringDashboard.csproj.AssemblyReference.cache
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\MainWindow.g.cs
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\App.g.cs
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\EquipmentMonitoringDashboard_MarkupCompile.cache
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\EquipmentMonitoringDashboard_MarkupCompile.lref
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\MainWindow.baml
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\EquipmentMonitoringDashboard.g.resources
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\EquipmentMonitoringDashboard.Properties.Resources.resources
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\EquipmentMonitoringDashboard.csproj.GenerateResource.cache
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\EquipmentMonitoringDashboard.csproj.CoreCompileInputs.cache
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\EquipmentMonitoringDashboard.exe
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\EquipmentMonitoringDashboard.pdb
+C:\Users\Janaf\OneDrive\Desktop\Mine\Career\C#\EquipmentMonitoringDashboard\EquipmentMonitoringDashboard\obj\Debug\GeneratedInternalTypeHelper.g.cs
